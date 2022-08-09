@@ -42,24 +42,6 @@ public abstract class Animals {
         return ("the animal is pooping");
     }
 
-    public <T extends Animals> Animals breed(Animals partner ){
-        Animals babyAnimal = null;
-        try {
-            babyAnimal = partner.getClass().getDeclaredConstructor().newInstance();
-        }
-        catch(Exception e){
-
-        }
-        finally {
-            return babyAnimal;
-        }
-    }
-
-    public <T extends Animals> Animals breeds(Animals partner ) throws IllegalAccessException, NoSuchMethodException, InstantiationException,IllegalArgumentException, InvocationTargetException {
-        Animals babyAnimal = null;
-
-        return babyAnimal = partner.getClass().getDeclaredConstructor().newInstance();
-    }
 
     void checkAge() {
         if (getAge() < 0) {
