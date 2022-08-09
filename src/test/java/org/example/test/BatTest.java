@@ -1,4 +1,5 @@
-package org.test;
+/*
+package org.example.test;
 
 import org.example.Bat;
 import org.example.FlyingRat;
@@ -48,3 +49,4 @@ public class BatTest {
     }
 
 }
+*/

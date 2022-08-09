@@ -1,4 +1,4 @@
-package org.test;
+/*package org.example.test;
 
 import org.example.Penguin;
 import org.junit.jupiter.api.Test;
@@ -14,3 +14,4 @@ public class PenguinTest {
     }
 
 }
+*/
