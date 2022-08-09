@@ -1,4 +1,4 @@
-/*
+
 package org.example.test;
 
 import org.example.Bat;
@@ -49,4 +49,3 @@ public class BatTest {
     }
 
 }
-*/

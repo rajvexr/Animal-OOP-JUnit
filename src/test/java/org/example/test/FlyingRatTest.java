@@ -1,4 +1,4 @@
-/*package org.example.test;
+package org.example.test;
 
 import org.example.Flying;
 import org.example.FlyingRat;
@@ -51,4 +51,3 @@ public class FlyingRatTest {
 
 
 }
-*/
