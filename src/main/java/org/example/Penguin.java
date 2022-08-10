@@ -2,10 +2,14 @@ package org.example;
 
 public class Penguin extends Bird{
 
+
+
     public Penguin(){
         setAge(9);
         setName("Bob");
         setDead(false);
+        setHP(100);
+        setAttack(20);
     }
 
     @Override

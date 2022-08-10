@@ -3,8 +3,6 @@ package org.example;
 public class Cat extends Mammal{
 
     private int killTotal;
-    int attack = 10;
-
 
     public int getKillTotal() {
         return killTotal;
@@ -19,12 +17,23 @@ public class Cat extends Mammal{
         setName("Dave");
         setKillTotal(4);
         setDead(true);
+        setGender("Female");
+        setHP(100);
+        setAttack(10);
     }
 
     @Override
     public String eat() {
         return (getName()+" is a meat eater");
     }
+
+    String speak(){
+        return ("Meow");
+    }
+
+
+
+
 
 
 }

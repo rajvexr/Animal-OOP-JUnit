@@ -6,6 +6,8 @@ public class FlyingRat extends Bird implements Flying{
         setName("Rat");
         setAge(6);
         setDead(true);
+        setHP(100);
+        setAttack(10);
     }
 
     @Override

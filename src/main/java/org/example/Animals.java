@@ -1,7 +1,5 @@
 package org.example;
 
-import java.lang.reflect.InvocationTargetException;
-
 public abstract class Animals {
 
     abstract String breathe(); //
@@ -12,7 +10,42 @@ public abstract class Animals {
 
     private int age;
 
+    private String gender;
+
     private boolean dead;
+
+    private int HP;
+
+    private int attack;
+
+    public Animals(){
+
+    }
+
+
+    public int getHP() {
+        return HP;
+    }
+
+    public void setHP(int HP) {
+        this.HP = HP;
+    }
+
+    public int getAttack() {
+        return attack;
+    }
+
+    public void setAttack(int attack) {
+        this.attack = attack;
+    }
+
+    public String getGender() {
+        return gender;
+    }
+
+    public void setGender(String gender) {
+        this.gender = gender;
+    }
 
     public int getAge() {
         return age;
@@ -42,6 +75,9 @@ public abstract class Animals {
         return ("the animal is pooping");
     }
 
+    public void animalAttack(int HP, int attack){
+
+    }
 
     void checkAge() {
         if (getAge() < 0) {

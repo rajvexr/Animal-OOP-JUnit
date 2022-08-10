@@ -6,6 +6,8 @@ public class Bat extends Mammal implements Flying{
         setName("flying creature");
         setAge(3);
         setDead(false);
+        setHP(100);
+        setAttack(10);
     }
 
     @Override

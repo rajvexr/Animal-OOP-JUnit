@@ -14,12 +14,12 @@ public abstract class Bird extends Animals{
 
 
     @Override
-    String breathe() {
+    public String breathe() {
         return (this.name+" is breathing");
     }
 
     @Override
-    String breed() {
+    public String breed() {
         return (this.name+" lays eggs");
     }
 }
