@@ -26,15 +26,5 @@ public class Cat extends Mammal{
         return (getName()+" is a meat eater");
     }
 
-    void CatAttacks(){
-
-    }
-
-    void CatKillsMouse(){
-
-
-    }
-
-
 
 }
